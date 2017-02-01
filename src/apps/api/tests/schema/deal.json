@@ -1,0 +1,111 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "links": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "self"
+      ]
+    },
+    "data": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string"
+          },
+          "attributes": {
+            "type": "object",
+            "properties": {
+              "project_id": {
+                "type": "string"
+              },
+              "account": {
+                "type": "string"
+              },
+              "start_date": {
+                "type": "string"
+              },
+              "end_date": {
+                "type": "string"
+              },
+              "probability": {
+                "type": "string"
+              },
+              "platform": {
+                "type": "string"
+              },
+              "staff_owner": {
+                "type": "string"
+              },
+              "delivery_manager": {
+                "type": "string"
+              },
+              "pod": {
+                "type": "string"
+              },
+              "amount": {
+                "type": "string"
+              },
+              "billing_structure": {
+                "type": "string"
+              },
+              "created_at": {
+                "type": "string"
+              },
+              "updated_at": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "project_id",
+              "account",
+              "start_date",
+              "end_date",
+              "probability",
+              "platform",
+              "staff_owner",
+              "delivery_manager",
+              "pod",
+              "amount",
+              "billing_structure",
+              "created_at",
+              "updated_at"
+            ]
+          },
+          "links": {
+            "type": "object",
+            "properties": {
+              "self": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "self"
+            ]
+          }
+        },
+        "required": [
+          "type",
+          "id",
+          "attributes",
+          "links"
+        ]
+      }
+    }
+  },
+  "required": [
+    "links",
+    "data"
+  ]
+}

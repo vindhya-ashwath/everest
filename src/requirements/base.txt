@@ -1,0 +1,14 @@
+# The required files here must have a fixed version number.
+django==1.8.14
+django-environ==0.4.0
+psycopg2==2.6.1
+djangorestframework==3.3.3
+markdown==2.6.6
+django-filter==0.13.0
+
+django-flat-theme==1.1.3
+django-overextends==0.4.1
+requests==2.11.1
+
+djangorestframework-jwt==1.9.0
+jsonschema==2.5.1
